@@ -16,7 +16,7 @@ public class Sal_Sort
         e2.setAge(24);
         e2.setSal(50000);
         emp e3=new emp();
-        e3.setName("Sigdha");
+        e3.setName("Snigdha");
         e3.setAge(20);
         e3.setSal(10000);
         emp e[]=new emp[3];
