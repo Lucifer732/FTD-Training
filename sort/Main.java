@@ -5,11 +5,11 @@ public class Main
 	public static void main(String[] args)
 	{
 		Student a[]=new Student[5];
-	    Student s1=new Student("rishi1",3, "java");
-	    Student s2=new Student("rishi2",9, "python");
-	    Student s3=new Student("rishi3", 8,"ruby");
-	    Student s4=new Student("rishi4",1, "scala");
-	    Student s5=new Student("rishi5",2 ,"cpp");
+	    Student s1=new Student("Tarun",3, "CPP");
+	    Student s2=new Student("Teja",9, "Java");
+	    Student s3=new Student("Snigdha", 8,"CPP");
+	    Student s4=new Student("sajid",1, "Python");
+	    Student s5=new Student("prami",2 ,"SQL");
 	    a[0]=s5;
 	    a[1]=s4;
 	    a[2]=s3;
