@@ -29,11 +29,11 @@ public class Main
 	    		
 	    	}
 	    }
-	    for(int k=0;k<a.length; k++) 
+	    for(int i=0;i<a.length;i++) 
 	    {
-		    System.out.print(a[k].getName()+" ");
-		    System.out.print(a[k].getAge()+" ");
-		    System.out.print(a[k].getSubject()+" ");
+		    System.out.print(a[i].getName()+" ");
+		    System.out.print(a[i].getAge()+" ");
+		    System.out.print(a[i].getSubject()+" ");
 		    System.out.println();
 	    }		
 	}
