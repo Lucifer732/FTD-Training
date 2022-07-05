@@ -5,10 +5,10 @@ public class Column_Sort
 {
 	public static void main(String[] args) 
 	{
-        int[][] arr=new int[][] {new int[] {8,5,2,1,6}, new int[] {2,11,98,25,10},new int[]{35,21,50,12,2}, new int[] {16,0,18,60,1}};
-        for (int i = 0; i < 4; i++) 
+        int[][] arr=new int[][] {new int[] {9,6,5,3,2}, new int[] {1,14,8,5,14},new int[]{5,2,35,52,22}, new int[] {14,10,8,4,23}};
+        for (int i=0;i<4;i++) 
         {
-            for (int j = 0; j < 4; j++) {
+            for (int j=0;j<4;j++) {
                 System.out.print(arr[i][j] + " ");
             }
             System.out.println();
@@ -31,8 +31,8 @@ public class Column_Sort
         	}
         }
         System.out.println();
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
+        for (int i=0;i<4;i++) {
+            for (int j=0;j<4;j++) {
             	temp1[i][j]=temp[j][i];
                 System.out.print(temp1[i][j] + " ");
             }
